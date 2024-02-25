@@ -8,7 +8,7 @@ api = Api(app)
 users = []
 poems = []
 
-app.config['SECRET_KEY'] = 'your_secret_key'
+app.config['SECRET_KEY'] = '281ea1989dcbbfd1cb7e42688aa676aa'
 
 class UserRegistration(Resource):
     def post(self):
